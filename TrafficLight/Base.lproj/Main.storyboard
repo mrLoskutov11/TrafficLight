@@ -32,17 +32,17 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Pk-ei-Vgm">
-                                <rect key="frame" x="95" y="171" width="240" height="128"/>
+                                <rect key="frame" x="140" y="161" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vbi-Bq-W7b">
-                                <rect key="frame" x="95" y="549" width="240" height="128"/>
+                                <rect key="frame" x="140" y="558" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j5N-xt-g2c">
-                                <rect key="frame" x="95" y="359" width="240" height="128"/>
+                                <rect key="frame" x="140" y="353" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
@@ -56,9 +56,9 @@
                     </view>
                     <connections>
                         <outlet property="actionButton" destination="2VO-v4-c3s" id="rb6-Wu-RGk"/>
-                        <outlet property="green" destination="vbi-Bq-W7b" id="h7Z-2X-aF6"/>
-                        <outlet property="red" destination="0Pk-ei-Vgm" id="W3X-En-4k6"/>
-                        <outlet property="yellow" destination="vbi-Bq-W7b" id="wjq-pH-5P3"/>
+                        <outlet property="greenLable" destination="vbi-Bq-W7b" id="sLW-tH-4zh"/>
+                        <outlet property="redLable" destination="0Pk-ei-Vgm" id="s6Z-bn-2Ul"/>
+                        <outlet property="yellowLable" destination="j5N-xt-g2c" id="kJZ-gm-5Kp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
