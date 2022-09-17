@@ -9,11 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var red: UIView!
+    @IBOutlet var yellow: UIView!
+    @IBOutlet var green: UIView!
+    @IBOutlet var actionButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        actionButton.layer.cornerRadius = 10
 
+    }
+    @IBAction func actionButtonDidTapped() {
+    }
+    
 
 }
 
