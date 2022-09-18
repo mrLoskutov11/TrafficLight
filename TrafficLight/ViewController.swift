@@ -8,28 +8,31 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet var redLable: UIView!
     @IBOutlet var yellowLable: UIView!
     @IBOutlet var greenLable: UIView!
     @IBOutlet var actionButton: UIButton!
     
-    private let colorViewTransparency: CGFloat = 0.3
+    private var turnedOn: CGFloat = 1
+    private var turnedOff: CGFloat = 0.3
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        redLable.alpha = colorViewTransparency
-        yellowLable.alpha = colorViewTransparency
-        greenLable.alpha = colorViewTransparency
+        redLable.alpha = turnedOff
+        yellowLable.alpha = turnedOff
+        greenLable.alpha = turnedOff
         actionButton.layer.cornerRadius = 10
-        redLable.layer.cornerRadius = 75
-        yellowLable.layer.cornerRadius = 75
-        greenLable.layer.cornerRadius = 75
-
+        redLable.layer.cornerRadius = 54
+        yellowLable.layer.cornerRadius = 54
+        greenLable.layer.cornerRadius = 54
+        
     }
     @IBAction func actionButtonDidTapped() {
+        
     }
-    
-
 }
+
+
 
