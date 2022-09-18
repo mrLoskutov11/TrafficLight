@@ -23,14 +23,27 @@ class ViewController: UIViewController {
         redLable.alpha = turnedOff
         yellowLable.alpha = turnedOff
         greenLable.alpha = turnedOff
+        
         actionButton.layer.cornerRadius = 10
+        
         redLable.layer.cornerRadius = 54
         yellowLable.layer.cornerRadius = 54
         greenLable.layer.cornerRadius = 54
         
     }
     @IBAction func actionButtonDidTapped() {
+        actionButton.setTitle("NEXT", for: .normal)
         
+        if redLable.alpha == turnedOn {
+            redLable.alpha = turnedOff
+            yellowLable.alpha = turnedOn
+        } else if yellowLable.alpha == turnedOn {
+            yellowLable.alpha = turnedOff
+            greenLable.alpha = turnedOn
+        } else {
+            greenLable.alpha = turnedOff
+            redLable.alpha = turnedOn
+        }
     }
 }
 
